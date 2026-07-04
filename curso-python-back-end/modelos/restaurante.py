@@ -12,3 +12,6 @@ restaurante_pizza = Restaurante()
 restaurantes = [restaurante_praca, restaurante_pizza]
 
 print(restaurante_praca.ativo)
+
+print(dir(restaurante_praca))
+print(restaurante_pizza)
