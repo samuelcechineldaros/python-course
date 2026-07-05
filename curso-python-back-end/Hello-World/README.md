@@ -26,7 +26,10 @@ This is a basic FastAPI back-end project.
 
 ## Endpoints
 
-- `GET /`: Returns {"Hello": "World"}
-- `GET /messages`: Returns list messages
+- `GET /`: Returns {"Message": "Welcome to Hello World API"}
+- `GET /messages_list`: Returns list messages
 - `GET /messages/{messages_id}`: Returns messages by id
-- `POST /messages`: Creates a new message
+- `GET /messages_search`: Returns messages by search
+- `POST /messages_create`: Creates a new message
+- `POST /messages_update`: Updates a message
+- `POST /messages_delete`: Deletes a message
